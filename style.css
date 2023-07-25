@@ -5,10 +5,16 @@ body{
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(6,1fr);
 }
-
+@media (min-width: 992px) {
+    .inicio{
+        margin-top: 30vh;
+        margin-left: 36vw;
+        
+        
+    }
+  }
 .inicio{
-    margin-top: 30vh;
-    margin-left: 36vw;
+    
     font-size: 2rem;
     padding-bottom: 20vw;
     
